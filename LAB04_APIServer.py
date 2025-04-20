@@ -9,10 +9,10 @@ CORS(app)
 
 # Cấu hình kết nối database PostgreSQL
 DB_CONFIG = {
-    "host": "34.174.123.242",  # Docker container PostgreSQL chạy trên localhost
-    "database": "iot",    # Tên database
-    "user": "admin",      # Tên người dùng
-    "password": "admin"   # Mật khẩu
+    "host": "IP public cua VM",  # Docker container PostgreSQL chạy trên VM GCP
+    "database": "***",    # Tên database
+    "user": "***",      # Tên người dùng
+    "password": "***"   # Mật khẩu
 }
 
 # Hàm kết nối với database
